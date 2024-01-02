@@ -8,7 +8,8 @@ This repository contains all of the end-of-chapter exams I took during my Epicod
 * [Settimana 2- Javascript I](./Settimana%202-%20Javascript%20I)
 * [Settimana 3- Javascript II](./Settimana%203-%20Javascript%20II)
 * [Settimana 5- HTML & CSS II & UX e UI- Medium Clone](./Settimana%205-%20HTML%20%26%20CSS%20II%20%26%20UX%20e%20UI-%20Medium%20Clone)
-* [Chapter 5: React](./chapter-5)
+* [Settimana 6- Bootstrap & SASS](./Settimana%206-%20Bootstrap%20%26%20SASS)
+* [Settimana 7- Javascript III](./Settimana%207-%20Javascript%20III)
 
 **Instructions:**
 
