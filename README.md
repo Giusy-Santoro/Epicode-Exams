@@ -4,7 +4,7 @@ This repository contains all of the end-of-chapter exams I took during my Epicod
 
 **Exams:**
 
-* [Chapter 1: HTML & CSS I](./html-css-i)
+* [HTML & CSS I](nome_della_tua_repository/nome_della_cartella_HTML_&_CSS_I)
 * [Chapter 2: HTML](./chapter-2)
 * [Chapter 3: CSS](./chapter-3)
 * [Chapter 4: JavaScript](./chapter-4)
