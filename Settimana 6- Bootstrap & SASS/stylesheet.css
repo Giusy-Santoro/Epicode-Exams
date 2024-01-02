@@ -1,0 +1,87 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");3
+
+
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#141414 ;
+  
+}
+header img{
+    width: 100px;
+}
+
+nav a{
+    color: white !important;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    color: red !important;
+}
+
+
+#user{
+width: 30px;
+}
+.dropdown-menu {
+    margin-left: -100px;
+    background-color: rgb(34, 34, 34);
+  }
+
+  .genres-button{
+    border-radius: 0;
+    background-color: #000000;
+
+  }
+  .card {
+    background-color: #333;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+
+.card img {
+    filter: brightness(95%);
+}
+
+.card img:hover{
+    filter: brightness(100%);
+} 
+
+.a{
+    font-size: 12px;
+}
+
+.footer-button{
+    border-radius: 0;
+}
+
+/*-----------------EDIT PROFILE-----------*/
+.profile{
+    max-width: 100%;
+}
+
+.input-name {    
+    background-color: #585858;
+    border: none;
+    color: #ffffff; 
+    border-radius: 0;
+    
+}
+
+
+.save-button button{
+border-radius: 0;
+}
