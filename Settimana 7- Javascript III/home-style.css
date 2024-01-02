@@ -1,0 +1,42 @@
+
+
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+ 
+}
+
+.card {
+    flex: 0 0 auto; /* Impedisce alle card di allungarsi per adattarsi al contenuto */
+    width: 300px; /* Larghezza fissa delle card */
+    gap: 10px; 
+}
+
+
+/*----------------detail page-------------------*/
+.detail-img{
+    width: 20vw
+   
+}
+
+
+
+
+
+/* ------------  back page -----------------*/
+
+.editButton {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Stile per la tabella */
+.table {
+    width: 100%;
+}
+
+.form{
+    text-align: center;
+}

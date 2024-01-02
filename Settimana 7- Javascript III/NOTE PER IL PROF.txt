@@ -1,0 +1,10 @@
+Il progetto è funzionante, ma graficamente bruttino.
+ho creato 3 pagine:
+1) la prima è una homepage dove è gia stata fatta una ricerca di obiettivi di macchine fotografiche. 
+
+2)ci sono delle card in questa homepage e ognuna di queste ha un bottone "dettagli" che farà aprire un'altra pagina. qui usciranno i dettagli presi col GET al proprio API
+
+3) attraverso il tasto "MODIFICA" si accede alla pagina back office (non so ancora come fare in modo di riconoscere se si è un utente o un            developer). nello specifico, in questa pagina il funzionamento è:
+attraverso lo stesso form, è possibile salvare un nuovo oggetto o modificare uno preesistente.
+l'oggetto gia esistente si modifica con "edit"
+ho aggiunto la spunta per poter scegliere piu elementi da eliminare dal proprio API.
