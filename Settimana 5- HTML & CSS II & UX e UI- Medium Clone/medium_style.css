@@ -1,0 +1,343 @@
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  height: 200vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+header {
+  background-color: #ffc017;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  height: 75px;
+ border-bottom: 1px solid black;
+ font-family: Arial, Helvetica, sans-serif;
+ position: fixed;
+ top: 0;
+ width: 90%;
+   padding: 0 5%;
+   z-index: 99;
+}
+header img {
+  width: 150px;
+}
+nav {
+  width: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+}
+nav a {
+  margin-right: 10px;
+}
+nav button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+  
+    
+}
+
+
+/* ------------------main--------------------------- */
+
+/* ------------------banner--------------------------- */
+.banner{
+    margin-top: 3.8%;
+   
+    background-color: #ffc017;
+   display: flex;
+   justify-content: space-between;
+}
+
+.banner  h2{
+    margin: 0;
+    font-size: 6em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    
+}
+.banner  h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    font-size: 1.5em;
+   
+}
+
+.stayCurious{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    width: 38%;
+    padding-left: 5%;
+    
+}
+.stayCurious button{
+    
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        width: 200px;
+       
+        height: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 15px;
+        font-size: 1.2em;
+}
+
+
+.stayCurious button:hover  {
+  background-color: green;
+ color: white;  
+}
+.stayCurious button{
+  transition: 0.3s 
+}
+/*----------------------------TREND---------------------------------*/
+.banner2{
+  width: 100%;
+  height:auto;
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-evenly;
+padding: 40px 0;
+gap: 10%;
+
+}
+
+.trend img{
+  border-radius: 50%;
+}
+
+.trend h2, h4{
+ margin: 8px 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.trendingOnMedium{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 4%;
+
+ 
+}
+
+.trendingOnMedium img{
+  width: 30px;
+}
+
+.trend p{
+  font-size: 2em;
+  opacity: 0.2;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* ---singoli trend---*/
+.trend{
+  width: 400px;
+ display: flex;
+height: 20vh;
+gap: 5%;
+
+}
+
+
+
+.trend h4{
+  font-size: 0.8em;
+}
+.trend h2{
+  font-size: 1em;
+  
+}
+
+.description .author{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ 
+}
+
+/*-------------------------article----and----aside---------------------*/
+.articleEndAside{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+
+
+/* ---------------------------------------article------------------------------------*/
+article{
+  display: flex;  
+ 
+  width: 50%;
+  flex-direction: column;
+
+}
+
+.art{
+ 
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.writer{
+  display: flex;
+  align-items: center;
+}
+.writer img{
+  border-radius: 50%;
+  width: 30px;
+}
+
+.art h4{
+  font-size: 0.7em;
+}
+.art h2{
+ margin: 8px 0;
+ font-weight: 800;
+}
+
+.art p{
+  font-size: 0.8em;
+}
+
+.art button{
+  border-radius: 50px;
+  border: none;
+  height: 30px;
+  width: 80px;
+ 
+}
+.metadati{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo img{
+  width: 210px;
+
+}
+.text{
+ margin-right: 20px;
+}
+.star-icon{
+  display: flex;
+  align-items: center;
+}
+/*-----------------------------------------aside----------------------------------*/
+
+aside{
+width: 30%;
+display: flex;
+flex-direction: column;
+position: sticky;
+top: 100px; /* perchè c'è l'header che è fixed e ha un h=75px + altri px per dare maggiore distanza*/
+align-self: flex-start;
+
+}
+
+aside h2{
+  font-size: 1em;
+}
+
+.moreButton{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1%;
+  
+}
+
+.moreButton button{
+  border-radius: 50px;
+  border: none;
+  height: 30px;
+  margin-top: 10px;
+  
+ 
+}
+
+.moreTopics{
+ margin-top: 5%;
+padding-bottom:5% ;
+border-bottom: 1px solid rgb(226, 226, 226);  
+}
+
+.moreTopics a{
+  color: green;
+  
+  font-size: 0.8em;
+}
+
+.moreLink a{
+
+padding-right: 5%;
+}
+
+.moreButton button:hover{
+  background-color: #ffc017;
+  transition: 0.3s;
+  
+}
+
+
+
+@media screen and (max-width: 714px) {
+  .animation {
+    display: none;
+  }
+
+  nav ul li:nth-child(-n+3) {
+    display: none;
+  }
+ nav button{
+  width: 100px;
+ }
+ nav{
+  width: 40%;
+ }
+ main{
+  
+ }
+}
