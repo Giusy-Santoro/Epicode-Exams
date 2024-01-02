@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.65;
+  font-size: 1.2em;
+}
+
+
+body{
+  color: #393d41;
+  font-family: 'Open Sans', sans-serif;  
+  
+}
+
+
+
+/* HEADER*/
+header{
+    background-color: black;    
+    padding: 4%;  
+    
+}
+
+
+
+
+/* BANNER*/
+.banner{
+   
+    background-image: url("../giorno_5_exam/S1-L5/Esercizio/images/banner.jpg") ;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    height: 40vh;  
+    padding: 5%;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 2em;
+    line-height: 1;
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    height: 60px;
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+    
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* CENTRO*/
+
+h1, h2, h3, h4 {
+    line-height: 1;
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#laptop{
+    border-radius: 50%;
+    width: 600px;
+}
+
+.item, .item1{
+    display: inline-block;
+   vertical-align: top;
+}
+
+.item{
+    width: 10%;
+    
+}
+
+.item1{
+    margin-left: 23%;
+    width: 40%;
+    margin-top: 5%;
+}
+
+#container{
+   margin: 5% 10%;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+/* *BANNER ROSSO- ASIDE */
+aside{
+    background-color: #e22d0e ;
+    
+    padding: 10%;
+    text-align: center;
+    height: 27vh;
+ }
+  
+ aside h2{
+   color: white;
+   
+ }
+ aside p{
+    color: white;
+    margin-bottom: -10px;
+    
+ }
+
+ aside cite {
+    color: white;
+    font-size: 40px;
+     
+ }
+
+
+aside p:last-child{
+    font-size: 15px;
+}
+
+
+
+
+/* 3 CONTENITORI*/
+
+
+.box{  
+   text-align: center;
+    padding: 5%;  
+}
+
+
+.box img{
+    height: 400px;
+    width: 100%;
+  }
+
+
+ .box1, .box2, .box3{
+    width: 600px;
+    height: 600px;
+    border: 1px solid rgb(224, 224, 224);
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+    
+  }
+
+
+ 
+
+
+
+  /* FOOTER*/
+
+
+  footer{
+    background-color: #25a2c3;
+    height: 50vh;
+    text-align: center;
+   
+   
+
+}
+
+footer h2{
+    color: white;
+}
+
+#footer{
+   padding: 8%;
+   margin-left: 10%;
+}
+
+a, i{
+    color: white;
+    
+}
+
+#maps a{
+    text-decoration: none;
+}
+
+footer a{
+    display: inline-block;
+    text-align: left;
+}
+
+hr {
+width: 400px;
+margin-top: 2%;
+margin-bottom: 2%;
+
+
+}
+
+small{
+    color: white;
+}
+
+.link div{
+
+    width: 25vw;
+    margin: 0 auto;
+   text-align: left;
+}
+
+
+
