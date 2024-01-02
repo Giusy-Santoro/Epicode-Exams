@@ -7,9 +7,11 @@ This repository contains all of the end-of-chapter exams I took during my Epicod
 * [Settimana 1- HTML & CSS I](./Settimana%201-%20HTML%20%26%20CSS%20I)
 * [Settimana 2- Javascript I](./Settimana%202-%20Javascript%20I)
 * [Settimana 3- Javascript II](./Settimana%203-%20Javascript%20II)
+* [Settimana 4- Build Week 1- Quiz page
 * [Settimana 5- HTML & CSS II & UX e UI- Medium Clone](./Settimana%205-%20HTML%20%26%20CSS%20II%20%26%20UX%20e%20UI-%20Medium%20Clone)
 * [Settimana 6- Bootstrap & SASS](./Settimana%206-%20Bootstrap%20%26%20SASS)
 * [Settimana 7- Javascript III](./Settimana%207-%20Javascript%20III)
+* [Settimana 8- Build Week 2- Spotify
 
 **Instructions:**
 
@@ -17,7 +19,7 @@ To view an exam, simply click on the corresponding file. The exams are all in th
 
 **Time:**
 
-The exams are open for 8 hours, from 10am to 6pm.
+The exams  were held for 8 hours, from 10am to 6pm.
 
 **Feedback:**
 
