@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;700;900&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 0.8;
+  font-size: 1.2em;
+  text-align: left;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+  color: #e7e7eb;
+}
+
+header {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+#flag {
+  width: 60px;
+  height: 30px;
+  box-shadow: 3px 3px 10px #0d113a;
+  margin: 3% 8%;
+}
+
+#logo {
+  width: 15%;
+  padding: 3% 8%;
+}
+
+#container {
+  padding: 3% 8% 0 8%;
+}
+
+#top, #quiz, #question {
+  line-height: 1.5em;
+}
+
+
+#mainTitle {
+  font-weight: 300;
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin: 0;
+}
+
+#Instruction {
+  color: #c2128d;
+  margin: 7px 0px;
+}
+
+ul {
+  margin: 3rem 0 2rem;
+}
+
+form {
+  margin-top: 6rem;
+}
+
+.labelContainer {
+  display: inline-block;
+  position: relative;
+  padding: 5px 50px;
+  font-size: 22px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.labelContainer input {
+  position: absolute;
+  height: 0;
+  width: 0;
+}
+
+/* CUSTUMIZZAZIONE CHECKBOX */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: solid;
+  cursor: pointer;
+}
+
+.checkmark:hover {
+  background-color: #c2128d;
+}
+
+/* CLICCA SUL BOX E FAI APPARIRE LA SPUNTA */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #e7e7eb;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.labelContainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* CUSTOMIZZAZTIONE BOTTONE */
+
+#proceedButton:enabled {
+  background-color: #00ffff;
+  border: none;
+  color: #0b133d;
+  cursor: pointer;
+  box-shadow: rgba(0, 255, 255, 0.12) 0px 2px 30px 15px,
+    rgba(0, 255, 255, 0.32) 0px 2px 30px 15px;
+}
+
+#proceedButton {
+  display: inline-block;
+  position: relative;
+  margin-left: 43%;
+  padding: 0.5em 1.5em;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border: solid 2px;
+  color: #e7e7eb;
+}
+/*----------------------------------  QUIZ PAGE---------------------------------- */
+
+#questionProgress{
+  text-align: center;
+
+}
+
+#question {
+  font-size: 40px;
+  font-weight: 600;
+  height: 10vh;
+}
+
+#quizPage{
+  text-align: center;
+
+  padding-top: 3%;
+  padding-bottom: 0;
+  padding-left:8%;
+  padding-right: 8%;
+}
+
+/*BOTTONI QUIZ*/
+button:not(#nextButton, .rateButton, #proceedButton) {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #e7e7eb28;
+  color: #e7e7eb;
+  padding: 2% 4%;
+  width: 35%;
+  margin: 15px 30px;
+  border: #e7e7eb;
+  box-shadow: 0 -9px #999;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+button:not(#nextButton, #proceedButton):active {
+  background-color: #900080;
+}
+
+#answers {
+  margin: 50px 0;
+  height: 25vh;
+}
+
+#nextButton,
+.rateButton {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  padding: 1% 2.5%;
+  border: 2px solid #e7e7eb;
+  margin: 30px 0;
+  border-radius: 0.1em;
+  text-decoration: none;
+  
+  color: #e7e7eb;
+  text-align: center;
+  transition: 0.4s;
+  cursor: pointer;
+
+  display: inline-block;
+}
+
+#time {
+  height: 4vh;
+  margin: 30px 0;
+  font-style: italic;
+  font-weight: 400;
+}
+
+h2{
+  font-size: 50px;
+}
+
+/*----------------------------------  FEEDBACK PAGE---------------------------------- */
+
+#feedbackPage, #quizPage{
+  text-align: center;
+}
+
+h3{
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#feedbackTitle{
+    margin-top: 0;
+    font-size: 60px;
+}
+
+#moreInfo {
+  background-color: transparent;
+  cursor:pointer;
+  display: block;
+  margin: 20px auto;
+  border: solid 2px;
+  color: #e7e7eb;
+  font-weight: 400;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 1% 5%;
+}
+
+#moreInfo:hover, #nextButton:hover, .rateButton:hover{
+  background-color: #06FDFF;
+  color: #0B113B;
+  box-shadow: rgba(0, 255, 255, 0.12) 0px 2px 30px 15px, rgba(0, 255, 255, 0.32) 0px 2px 30px 15px;
+  border: solid 2px #06FDFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.rating-box{
+    padding: 40px 50px;
+}
+
+.rating-box .stars{
+    display: inline;
+    align-items: center;
+    gap: 25px;
+}
+
+.stars i{
+    color: #0c1447;
+    font-size: 50px;
+    cursor:pointer;
+    transition: color 0.2s ease;
+}
+
+.stars i.active{
+    color: #06FDFF;
+}
+
+
+textarea {
+    width: 50%; 
+    height: 150px;
+    padding: 12px; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 2px solid #C2168D;
+    color: #e7e7eb;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    overflow:hidden;
+  }
+
+textarea::placeholder {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+}
