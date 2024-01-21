@@ -33,27 +33,30 @@ const WeatherCard = ({ data }) => {
   const conditionInItalian = weatherConditions[weather[0].main] || weather[0].description;
 
   return (
-    <div>
-      <h2>
-        <FontAwesomeIcon icon={faMapMarkerAlt} /> {`${name}, ${country}`}
-      </h2>
-      <p>
-        <FontAwesomeIcon icon={faTemperatureLow} /> {`Temperatura: ${kelvinToCelsius(main.temp)} °C`}
-      </p>
-      <p>
-        <FontAwesomeIcon icon={faTint} /> {`Umidità: ${main.humidity}%`}
-      </p>
-      <p>
-        <FontAwesomeIcon icon={faWind} /> {`Velocità del vento: ${wind.speed} m/s`}
-      </p>
-      <p>
-        <FontAwesomeIcon icon={faEye} /> {`Visibilità: ${visibility} metri`}
-      </p>
-      <p>
-        <FontAwesomeIcon icon={faMapMarkerAlt} /> {`Condizione: ${conditionInItalian}`}
-      </p>
+    <div className="card">
+      <div className="card-body">
+        <h5 className="card-title">
+          <FontAwesomeIcon icon={faMapMarkerAlt} /> {`${name}, ${country}`}
+        </h5>
+        <p className="card-text">
+          <FontAwesomeIcon icon={faTemperatureLow} /> {`Temperatura: ${kelvinToCelsius(main.temp)} °C`}
+        </p>
+        <p className="card-text">
+          <FontAwesomeIcon icon={faTint} /> {`Umidità: ${main.humidity}%`}
+        </p>
+        <p className="card-text">
+          <FontAwesomeIcon icon={faWind} /> {`Velocità del vento: ${wind.speed} m/s`}
+        </p>
+        <p className="card-text">
+          <FontAwesomeIcon icon={faEye} /> {`Visibilità: ${visibility} metri`}
+        </p>
+        <p className="card-text">
+          <FontAwesomeIcon icon={faMapMarkerAlt} /> {`Condizione: ${conditionInItalian}`}
+        </p>
+      </div>
     </div>
   );
 };
+
 
 export default WeatherCard;

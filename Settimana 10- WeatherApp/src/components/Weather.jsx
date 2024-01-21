@@ -1,9 +1,10 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import WeatherCard from '../components/WeatherCard';
 import SearchBar from '../components/SearchBar';
 import WeeklyForecast from '../components/WeeklyForecast';
+import MapCard from '../components/MapCard'; 
+import CapitalCard from '../components/CapitalCard'; 
 
 const Weather = () => {
   const [weatherData, setWeatherData] = useState(null);
@@ -53,26 +54,52 @@ const Weather = () => {
     fetchData();
   }, [city]);
 
-  useEffect(() => {
-    // Pulisci i dati quando il componente si monta
-    setWeatherData(null);
-    setWeeklyForecast(null);
-  }, []); // Dipendenza vuota, quindi si verifica solo al montaggio del componente
-
   console.log('Stato dei dati meteorologici:', weatherData);
   console.log('Stato delle previsioni settimanali:', weeklyForecast);
 
   return (
-    <div>
-      <SearchBar />
-      {loading && <p>Caricamento...</p>}
-      {!loading && weatherData && <WeatherCard data={weatherData} />}
-      {!loading && weeklyForecast && <WeeklyForecast data={weeklyForecast} />}
-      
-      {/* Aggiungi un link per tornare alla home */}
-      <Link to="/" className="btn btn-secondary mt-2">
-        Torna alla Home
-      </Link>
+    <div className="container mt-3">
+      <div className="row">
+        <div className="col-md-12 text-center mb-3">
+          <SearchBar />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-4 h-100">
+          {loading && <p>Caricamento...</p>}
+          {!loading && weatherData && (
+            <div className="h-100">
+              <WeatherCard data={weatherData} />
+            </div>
+          )}
+        </div>
+        <div className="col-md-4 h-100">
+          {weatherData && (
+            <div className="h-100">
+              <MapCard data={weatherData} />
+            </div>
+          )}
+        </div>
+        <div className="col-md-4 h-100">
+          {weatherData && (
+            <div className="h-100 border p-3">
+              <CapitalCard data={weatherData} />
+            </div>
+          )}
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-12">
+          {weeklyForecast && <WeeklyForecast data={weeklyForecast} />}
+        </div>
+      </div>
+      <div className="row mt-3">
+        <div className="col-md-12 text-center">
+          <Link to="/" className="btn btn-secondary">
+            Torna alla Home
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
