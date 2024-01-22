@@ -7,7 +7,7 @@ const CapitalCard = () => {
     const fetchCapitalData = async () => {
       try {
         // Array di capitali da visualizzare
-        const capitalCities = ['Roma', 'Parigi', 'Berlino', 'Londra', 'Tokyo', 'New York'];
+        const capitalCities = ['Roma,It', 'Parigi', 'Berlino', 'Londra', 'Tokyo', 'New York'];
 
         const fetchDataPromises = capitalCities.map(async (capital) => {
           const response = await fetch(
