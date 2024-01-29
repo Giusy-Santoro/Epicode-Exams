@@ -12,6 +12,8 @@ This repository contains all of the end-of-chapter exams I took during my Epicod
 * [Settimana 6- Bootstrap & SASS](./Settimana%206-%20Bootstrap%20%26%20SASS)
 * [Settimana 7- Javascript III](./Settimana%207-%20Javascript%20III)
 * [Settimana 8- Build Week 2- Spotify
+* [Settimana 9- Netflix React Clone](./Settimana%209-%20Netflix%20React%20Clone)
+
 
 **Instructions:**
 
