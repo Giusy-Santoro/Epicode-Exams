@@ -13,6 +13,7 @@ This repository contains all of the end-of-chapter exams I took during my Epicod
 * [Settimana 7- Javascript III](./Settimana%207-%20Javascript%20III)
 * [Settimana 8- Build Week 2- Spotify
 * [Settimana 9- Netflix React Clone](./Settimana%209-%20Netflix%20React%20Clone)
+* [Settimana 10- WeatherApp](./Settimana%2010-%20WeatherApp)
 
 
 **Instructions:**
